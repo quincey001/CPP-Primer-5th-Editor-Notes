@@ -1,0 +1,75 @@
+# 1. Fundamental of c ++
+
+## What is compilation process:
+
+The compilation process in c++ involves translating human-readable source code into machine-readable binary code that can be executed by a computer. 
+
+The c++ compilation process has two steps: First, the source code is converted into object code, an intermediate representation, and then the object code is connected with other files and libraries to produce an executable file.
+
+There are four steps in the c++ compilation process that converts source code into machine-readable code.
+
+ 
+
+![image.png](1%20Fundamental%20of%20c%20++%20b7d1d52d0d514ebc8914a147d894bc53/image.png)
+
+# Step 1- preprocessor
+
+The preprocessor handles directives such as including header files, macro expansions, and conditional compilation. It prepares the source code for the actual compilation by resolving preprocessor directives and generating an intermediate code.
+
+1. The header files included within the source code file are not passed directly to the compiler, only the source code file is passed for pre-processing and compilation purposes. Header files are then indirectly included from the source file itself, where the c++ preprocessor replaces the lines containing the #include directive with the actual content of the included header files.
+
+```cpp
+#include <iostream>
+#include <bits/stdc++.h>
+```
+
+1. The another purpose of preprocessing is to remove the code from the source code file upon finding conditional compilation blocks whose value evaluates to false and is not needed in retrieving results from the code.
+2. Preprocessor also helps in **macro (宏) replacements. Macros in c++ usually start with the #define directive, and whenever the compiler encounters a macro name, it replaces the name with definition of the Macro.**
+
+```cpp
+#include <iostream>
+#define PI 3.14
+
+double area(float);
+
+int main(){
+	double a = area(10);
+	return 0;
+}
+
+double area(float radius){
+	return PI * radius * radius;
+}
+```
+
+It finally converts the my-file.cpp or my-file.c to my-file.i which contains the expanded source code.
+
+![image.png](1%20Fundamental%20of%20c%20++%20b7d1d52d0d514ebc8914a147d894bc53/image%201.png)
+
+# Step 2 - Compilation
+
+The compiler converts the expanded code to assembly code. 
+
+The compiler checks the program for syntax errors. 
+
+If no error is found, it converts the expanded code to assembly code.
+
+Basically, the expanded code my-file.i is converted to my-file.s which contains the assembly code.
+
+# Step 3 - Assembler
+
+The assembler converts the assembly code into object code know as binary code or machine-level code which is understandable by the computer. 
+
+On windows, the file containing the object code will be my-file.obj
+
+on macOS and Linux, the file containing the object code will be my-file.o.
+
+# Step 4 - Linker
+
+In this step, the Linker converts the object code to executable code which is the executable file my-file.exe.
+
+# Step 5 - Loader
+
+In the last step, the Loader loads the executable file into memory and the program starts to run in an executable environment.
+
+![image.png](1%20Fundamental%20of%20c%20++%20b7d1d52d0d514ebc8914a147d894bc53/image%202.png)
