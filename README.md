@@ -6,10 +6,10 @@ Welcome to my **C++ Primer 5th Edition Learning Notes** repository! This repo co
 ## About the Book
 The C++ Primer is a comprehensive introduction to the C++ programming language, widely used for both learning and reference.
 
-![C++ Primer 5th Edition](https://images-na.ssl-images-amazon.com/images/I/81jK1VMfS6L.jpg)
+![../pic.jpg](https://github.com/quincey001/c-Primer-5th-Editor-notes/blob/main/pic.jpg)
 
 ## Book Link
-You can find the book [here](https://www.amazon.com/Primer-5th-Stanley-Lippman/dp/0321992784).
+You can find the book [here]([https://www.amazon.com/Primer-5th-Stanley-Lippman/dp/0321992784](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113)).
 
 ## 🌟 Overview
 
