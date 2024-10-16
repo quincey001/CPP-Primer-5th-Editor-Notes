@@ -3,6 +3,14 @@
 
 Welcome to my **C++ Primer 5th Edition Learning Notes** repository! This repo contains my personal notes, insights, and examples as I work through the **C++ Primer (5th Edition)** by Stanley B. Lippman, Josée Lajoie, and Barbara E. Moo. This book is an excellent resource for both beginner and intermediate C++ programmers looking to deepen their understanding of C++.
 
+## About the Book
+The C++ Primer is a comprehensive introduction to the C++ programming language, widely used for both learning and reference.
+
+![C++ Primer 5th Edition](https://images-na.ssl-images-amazon.com/images/I/81jK1VMfS6L.jpg)
+
+## Book Link
+You can find the book [here](https://www.amazon.com/Primer-5th-Stanley-Lippman/dp/0321992784).
+
 ## 🌟 Overview
 
 The notes are structured chapter by chapter, with each section containing summaries, important concepts, examples, and exercises from the book. This is intended to serve as a helpful guide for others who are studying C++ and working through this book, or for anyone looking for a quick refresher.
